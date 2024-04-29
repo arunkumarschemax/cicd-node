@@ -6,7 +6,7 @@ app.use(express.static(path.join(_dirname, '/ui/build')))
 
 
 app.get('/names', (req, res) => {
-    res.send("shiva")
+    res.send("Shiva Arun")
 })
 
 app.listen(5000, () => {
