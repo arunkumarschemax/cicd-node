@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-    <h1>My application</h1>
+    <h1>My</h1>
     <h3>{userName}</h3>
     
     </>
