@@ -1,12 +1,17 @@
-const express = require('express')
-const app = express();
-const path = required('path')
+const express = require('express');
+var path = require('path');
 
-app.use(express.static(path.join(_dirname, '/ui/build')))
+
+
+const app = express();
+console.log(__dirname);
+
+app.use(express.static(path.join(__dirname, '/')));
+
 
 
 app.get('/names', (req, res) => {
-    res.send("Shiva Arun")
+    res.send("Shiva")
 })
 
 app.listen(5000, () => {
