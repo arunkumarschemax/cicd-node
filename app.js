@@ -6,7 +6,7 @@ var path = require('path');
 const app = express();
 console.log(__dirname);
 
-app.use(express.static(path.join(__dirname, '/')));
+app.use(express.static(path.join(__dirname, '/ui/build')));
 
 
 
