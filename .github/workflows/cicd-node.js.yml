@@ -34,6 +34,6 @@ jobs:
     - run:
           pm2 save
     - run:
-          sh test.sh
+          ./test.sh
     - run:
            echo "Auto" | sudo -S service nginx restart
