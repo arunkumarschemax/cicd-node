@@ -34,4 +34,4 @@ jobs:
     - run:
           pm2 save
     - run:
-          sudo service nginx restart
+          sudo -S service nginx restart
